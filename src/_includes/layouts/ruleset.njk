@@ -9,6 +9,8 @@ layout: layouts/default.njk
 
 {{ description | md | safe }}
 
+{{ comp.dashboard({ current_ruleset: current_ruleset }) | safe }}
+
 <div class="padded info">
   <h3>Legend</h3>
 
@@ -17,4 +19,4 @@ layout: layouts/default.njk
   {{ comp.legend() | safe }}
 </div>
 
-{{ comp.dashboard({ current_ruleset: current_ruleset }) | safe }}
+
