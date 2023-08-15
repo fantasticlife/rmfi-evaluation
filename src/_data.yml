@@ -1,0 +1,17 @@
+layout: layouts/default.njk
+
+site_title: Register of Members Interest Dashboard
+
+metas:
+  site: |
+    Competency Answerability Dashboard
+  description: |
+    Dashboard showing how a set of competencies can be answered based on
+    various rulesets of the UK Parliament Registers of Members' Financial Interests.
+  # twitter: "@misteroom"
+  # icon: /img/icon.png
+  lang: en
+  generator: true
+
+mergedKeys:
+  metas: object

@@ -1,0 +1,33 @@
+{
+  "competencies": [
+    {
+      "id": "C1",
+      "competency": "Does the Member have a cat?",
+      "dependencies": [
+        "commons.has_cat",
+        "lords.has_cat"
+      ],
+      "duplicate_of": []
+    },
+    {
+      "id": "C2",
+      "competency": "Does the Member have a dog?",
+      "dependencies": [
+        "commons.pet_type_lookup",
+        "lords.pet_type_lookup"
+      ],
+      "duplicate_of": []
+    },
+    {
+      "id": "C3",
+      "competency": "Does the Member have a feline?",
+      "dependencies": null,
+      "duplicate_of": [
+        "C1"
+      ]
+    }
+  ],
+  "metadata": {
+    "generated": "2022-11-03T21:44:14.000Z"
+  }
+}

@@ -1,0 +1,11 @@
+{{-
+
+  {
+    competencies:
+      competency | listify | sort(false, false, 'id'),
+    metadata: {
+      generated: date
+    }
+  }
+
+| dump(2) | safe -}}

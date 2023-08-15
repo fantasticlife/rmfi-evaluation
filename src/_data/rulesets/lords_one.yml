@@ -1,0 +1,7 @@
+name: First ruleset
+scope: lords
+draft: false
+order: 3
+description: |
+  Lords first ruleset
+available: []

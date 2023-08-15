@@ -1,0 +1,8 @@
+name: Second ruleset
+scope: lords
+draft: false
+order: 4
+description: |
+  Lords second ruleset
+available: 
+  "lords.has_cat":

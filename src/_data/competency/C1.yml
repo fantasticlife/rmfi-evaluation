@@ -1,0 +1,5 @@
+competency: Does the Member have a cat?
+dependencies:
+- commons.has_cat
+- lords.has_cat
+duplicate_of: []

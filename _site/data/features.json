@@ -1,0 +1,23 @@
+{
+  "features": {
+    "commons": {
+      "has_cat": {
+        "description": "A theoretical cross match/lookup of a pet type against a known list."
+      },
+      "has_dog": {
+        "description": "A theoretical cross match/lookup of a pet type against a known list."
+      },
+      "pet_type_lookup": {
+        "description": "A theoretical cross match/lookup of a pet type against a known list.",
+        "enables": {
+          "commons.has_dog": null,
+          "commons.has_cat": null
+        }
+      }
+    },
+    "lords": {}
+  },
+  "metadata": {
+    "generated": "2023-01-26T14:21:24.000Z"
+  }
+}

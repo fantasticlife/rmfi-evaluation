@@ -1,0 +1,8 @@
+name: Second ruleset
+scope: commons
+draft: false
+order: 2
+description: |
+  Commons second ruleset
+available: 
+  "commons.pet_type_lookup":

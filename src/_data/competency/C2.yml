@@ -1,0 +1,5 @@
+competency: Does the Member have a dog?
+dependencies:
+- commons.pet_type_lookup
+- lords.pet_type_lookup
+duplicate_of: []

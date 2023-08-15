@@ -1,0 +1,11 @@
+has_cat:
+  description: "A theoretical cross match/lookup of a pet type against a known list."
+  
+has_dog:
+  description: "A theoretical cross match/lookup of a pet type against a known list."
+
+pet_type_lookup:
+  description: "A theoretical cross match/lookup of a pet type against a known list."
+  enables:
+    "commons.has_dog":
+    "commons.has_cat":

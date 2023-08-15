@@ -1,0 +1,8 @@
+name: First ruleset
+scope: commons
+draft: false
+order: 1
+description: |
+  Commons first ruleset
+available: 
+  "commons.has_cat":
