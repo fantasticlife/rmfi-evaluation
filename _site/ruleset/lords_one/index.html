@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='640' height='640' overflow='auto' viewBox='-32 -32 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='oi-person'%3E%3Cpath d='m-32-32h64v64h-12v-24a4 4 0 0 0 -4 -4h-8a4 4 0 0 0 -4 4v24h-36zm44 27m-8 0a8 8 0 1 0 16 0 8 8 0 1 0-16 0' fill='%23fff'%3E%3C/path%3E%3C/mask%3E%3Cg id='oi-logo' fill='%23777'%3E%3Ccircle r='32' mask='url(%23oi-person)'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E">
-  <title>Ruleset: First ruleset | Competency Answerability Dashboard
+  <title>Ruleset: first | Competency Answerability Dashboard
 </title>
   <link rel="stylesheet" href="/assets/css/core.css">
   <link rel="stylesheet" href="/assets/css/components.css">
@@ -13,15 +13,15 @@
 <script src="/assets/js/auto-popup.js" data-auto-dependency="true"></script><meta property="og:type" content="website">
 <meta property="og:site_name" content="Competency Answerability Dashboard">
 <meta property="og:locale" content="en">
-<meta property="og:title" content="Ruleset: First ruleset">
+<meta property="og:title" content="Ruleset: first">
 <meta property="og:description" content="Dashboard showing how a set of competencies can be answered based on
 various rulesets of the UK Parliament Registers of Members' Financial Interests.">
 <meta property="og:url" content="http://localhost:3000/ruleset/lords_one/">
-<meta name="twitter:title" content="Ruleset: First ruleset">
+<meta name="twitter:title" content="Ruleset: first">
 <meta name="twitter:description" content="Dashboard showing how a set of competencies can be answered based on
 various rulesets of the UK Parliament Registers of Members' Financial Interests.">
 <meta name="twitter:card" content="summary">
-<meta itemprop="name" content="Ruleset: First ruleset">
+<meta itemprop="name" content="Ruleset: first">
 <meta itemprop="description" content="Dashboard showing how a set of competencies can be answered based on
 various rulesets of the UK Parliament Registers of Members' Financial Interests.">
 <meta name="description" content="Dashboard showing how a set of competencies can be answered based on
@@ -52,44 +52,23 @@ various rulesets of the UK Parliament Registers of Members' Financial Interests.
   <p id="ruleset-list-title">Defined rulesets:</p>
   <ul>
     
-      <li class=""><a href="/ruleset/commons_one/">House of Commons: First ruleset</a></li>
+      <li class=""><a href="/ruleset/commons_one/">House of Commons: first</a></li>
     
-      <li class=""><a href="/ruleset/commons_two/">House of Commons: Second ruleset</a></li>
+      <li class=""><a href="/ruleset/commons_two/">House of Commons: second</a></li>
     
-      <li class="active"><a href="/ruleset/lords_one/">House of Lords: First ruleset</a></li>
+      <li class="active"><a href="/ruleset/lords_one/">House of Lords: first</a></li>
     
-      <li class=""><a href="/ruleset/lords_two/">House of Lords: Second ruleset</a></li>
+      <li class=""><a href="/ruleset/lords_two/">House of Lords: second</a></li>
     
   </ul>
 </div>
 
 
-<h2>House of Lords First ruleset ruleset</h2>
+<h2>House of Lords first ruleset</h2>
 
 <p>This ruleset applies to the <strong>House of Lords</strong>.</p>
 
 <p>Lords first ruleset</p>
-
-<div class="padded info">
-  <h3>Legend</h3>
-
-  <p>The symbols and colours on the dashboard have the following meanings</p>
-
-  <dl class="legend">
-  <div>
-    <dt><div class="competency-block" data-score="1"></div><strong>Answerable</strong></dt>
-    <dd>All required features are available in the current ruleset</dd>
-  </div>
-  <div>
-    <dt><div class="competency-block" data-score="0"></div><strong>Unanswerable</strong></dt>
-    <dd>Not all required features are available in the current ruleset</dd>
-  </div>
-  <div>
-    <dt><div class="competency-block"></div><strong>Unaskable</strong></dt>
-    <dd>There are no features that exist in this ruleset or any other which could answer this question</dd>
-  </div>
-</dl>
-</div>
 
 
   <section aria-labelledby="category-1">
@@ -122,7 +101,7 @@ various rulesets of the UK Parliament Registers of Members' Financial Interests.
   <!-- 
     Failed tests
     C3
-    details: {"ID":"C3","Commons model allows":"No","Session date":44586,"Evidence":"Oral","Name":"Evans of Weardale, Lord","Organisation":"Committee on Standards in Public Life","Role ":"Chair ","Member/Witness":"Witness","Reference (Question, page, line)":"beep","Competency":"Does the Member have a feline?","RMFI category":"Miscellaneous","Link":"https://committees.parliament.uk/oralevidence/3324/html/"}
+    details: {"ID":"C3","Duplicates":"C1","Session date":44586,"Evidence":"Oral","Name":"Evans of Weardale, Lord","Organisation":"Committee on Standards in Public Life","Role ":"Chair ","Member/Witness":"Witness","Reference (Question, page, line)":"beep","Competency":"Does the Member have a feline?","RMFI category":"Miscellaneous","Link":"https://committees.parliament.uk/oralevidence/3324/html/"}
     competency: {"competency":"Does the Member have a feline?","dependencies":null,"duplicate_of":["C1"]}
   -->
 
@@ -130,6 +109,29 @@ various rulesets of the UK Parliament Registers of Members' Financial Interests.
   
   </ul>
   </section>
+
+
+
+<div class="padded info">
+  <h3>Legend</h3>
+
+  <p>The symbols and colours on the dashboard have the following meanings</p>
+
+  <dl class="legend">
+  <div>
+    <dt><div class="competency-block" data-score="1"></div><strong>Answerable</strong></dt>
+    <dd>All required features are available in the current ruleset</dd>
+  </div>
+  <div>
+    <dt><div class="competency-block" data-score="0"></div><strong>Unanswerable</strong></dt>
+    <dd>Not all required features are available in the current ruleset</dd>
+  </div>
+  <div>
+    <dt><div class="competency-block"></div><strong>Unaskable</strong></dt>
+    <dd>There are no features that exist in this ruleset or any other which could answer this question</dd>
+  </div>
+</dl>
+</div>
 
 
 

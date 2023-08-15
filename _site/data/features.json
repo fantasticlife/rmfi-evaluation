@@ -2,13 +2,16 @@
   "features": {
     "commons": {
       "has_cat": {
-        "description": "A theoretical cross match/lookup of a pet type against a known list."
+        "type": "boolean",
+        "description": "A flag to capture if the Member has a cat."
       },
       "has_dog": {
-        "description": "A theoretical cross match/lookup of a pet type against a known list."
+        "type": "boolean",
+        "description": "A flag to capture if the Member has a dog."
       },
       "pet_type_lookup": {
-        "description": "A theoretical cross match/lookup of a pet type against a known list.",
+        "type": "select",
+        "description": "A lookup of a pet type against a known list.",
         "enables": {
           "commons.has_dog": null,
           "commons.has_cat": null
