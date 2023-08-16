@@ -1,3 +1,5 @@
 competency: Does the Member have a feline?
 dependencies:
+- commons.has_cat
+- lords.has_cat
 duplicate_of: [C1]
