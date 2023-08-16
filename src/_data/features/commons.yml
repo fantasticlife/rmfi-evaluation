@@ -10,5 +10,5 @@ pet_type_lookup:
   type: select
   description: "A lookup of a pet type against a known list."
   enables:
-    "commons.has_dog":
-    "commons.has_cat":
+    - commons.has_dog
+    - commons.has_cat
