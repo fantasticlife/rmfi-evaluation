@@ -21,7 +21,10 @@
     {
       "id": "C3",
       "competency": "Does the Member have a feline?",
-      "dependencies": null,
+      "dependencies": [
+        "commons.has_cat",
+        "lords.has_cat"
+      ],
       "duplicate_of": [
         "C1"
       ]
