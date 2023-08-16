@@ -31,8 +31,8 @@
         "type": "select",
         "description": "A lookup of a pet type against a known list.",
         "enables": [
-          "commons.has_dog",
-          "commons.has_cat"
+          "lords.has_dog",
+          "lords.has_cat"
         ]
       }
     }
